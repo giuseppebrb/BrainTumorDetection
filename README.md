@@ -34,21 +34,21 @@ You can use the code in this repository in different ways:
 
 If you prefer skipping the building process you can download the latest version of models [here](https://github.com/giuseppebrb/BrainTumorDetection/releases).
 
-In order to run one of the models please follow this steps:
+In order to run one of the models please follow these steps:
 
-1. Clone the YOLOv5 repository
+**1.** Clone the YOLOv5 repository
 
 ```
 git clone https://github.com/ultralytics/yolov5.git
 ```
 
-2. Within the folder of the repository just cloned, in the terminal run:
+**2.** Within the folder of the repository just cloned, in the terminal run:
 
 ```
 pip install -r requirements.txt
 ```
 
-3. Now you are ready to use one of the model. Within the folder of the YOLOv5 Repository you can run in the terminal:
+**3.** Now you are ready to use one of the model. Within the folder of the YOLOv5 Repository you can run in the terminal:
 
 ```
 python detect.py --weights <DOWNLOADED_MODEL_PATH> --img 640 --conf 0.4 --source <URL_OR_PATH_OF_THE_IMAGE>
