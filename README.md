@@ -18,17 +18,17 @@ The dataset used in this project has been edited and enlarged starting from this
 
 ## Tech overview
 
-We won't building the entire Deep Neural Network from scratch, instead we'll perform fine-tuning of the [YOLOv5](https://github.com/ultralytics/yolov5) architecture which has been already trained on the COCO dataset. This allows us to specialize the model to our specific task of tumor detection. In particular, will be starting from the YOLOv5s checkpoint.
+We won't building the entire Deep Neural Network from scratch, instead we'll perform fine-tuning of the [**YOLOv5**](https://github.com/ultralytics/yolov5) architecture which has been already trained on the **COCO** dataset. This allows us to specialize the model to our specific task of tumor detection. In particular, will be starting from the **YOLOv5s** checkpoint.
 
-A Python environment with [PyTorch](https://pytorch.org/get-started/locally/) installed is required to perform both training end/or detection.
+A Python environment with [**PyTorch**](https://pytorch.org/get-started/locally/) installed is required to perform both training end/or detection.
 
 ## About the repo
 
 You can use the code in this repository in different ways:
 
-1. Train and detect on this Google Colaboratory environment [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t8JFIeIObGaqmGUMW0NZuOnxQfPNYGFk?usp=sharing) (TIP: if you select the runtime with GPU, training process will be faster).
-2. Train and detect locally by cloning the repository and running this Jupyter Notebook file [BrainTumorDetector.ipynb](https://colab.research.google.com/drive/1t8JFIeIObGaqmGUMW0NZuOnxQfPNYGFk?usp=sharing) (training time will be determined by your hardware capacity).
-3. Download and use the fine-tuned models in the [release](https://github.com/giuseppebrb/BrainTumorDetection/releases) page (see below for further details).
+1. Train and detect on this **Google Colaboratory** environment [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t8JFIeIObGaqmGUMW0NZuOnxQfPNYGFk?usp=sharing) (TIP: if you select the runtime with GPU, training process will be faster).
+2. Train and detect locally by cloning the repository and running this **Jupyter Notebook** file [BrainTumorDetector.ipynb](https://colab.research.google.com/drive/1t8JFIeIObGaqmGUMW0NZuOnxQfPNYGFk?usp=sharing) (training time will be determined by your hardware capacity).
+3. **Download** and use the fine-tuned models in the [release](https://github.com/giuseppebrb/BrainTumorDetection/releases) page (see below for further details).
 
 ## How to use the models
 
@@ -54,5 +54,6 @@ pip install -r requirements.txt
 python detect.py --weights <DOWNLOADED_MODEL_PATH> --img 640 --conf 0.4 --source <URL_OR_PATH_OF_THE_IMAGE>
 ```
 
-Examples below show 3 different detections (one per model) on the MRIs of 3 different patients.
+Examples below show 3 different detections (one per model) on the MRIs of 3 different patients. <br>
+A **label** over the bounding box identifies the **class** of the detection ("tumor" / "not tumor") and besides that is displayed a **confidence score** (**0 minimum** - **1 maximum**).
 ![output](https://i.imgur.com/sk2Vh1s.jpg)
