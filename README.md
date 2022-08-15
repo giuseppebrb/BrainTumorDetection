@@ -1,6 +1,6 @@
 # 🧠 Brain Tumor Detection
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://badgen.net/badge/release/1.0.0/green?icon=github)](https://github.com/giuseppebrb/BrainTumorDetection/releases) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t8JFIeIObGaqmGUMW0NZuOnxQfPNYGFk?usp=sharing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://badgen.net/badge/release/1.0.0/green?icon=github)](https://github.com/giuseppebrb/BrainTumorDetection/releases) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P5enxsjb1ZBbzV488tUYriINwGDSZL99?usp=sharing)
 
 Co-author: [@TomMenga](https://github.com/TomMenga)
 
@@ -26,8 +26,8 @@ A Python environment with [**PyTorch**](https://pytorch.org/get-started/locally/
 
 You can use the code in this repository in different ways:
 
-1. Train and detect on this **Google Colaboratory** environment [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1t8JFIeIObGaqmGUMW0NZuOnxQfPNYGFk?usp=sharing) (TIP: if you select the runtime with GPU, training process will be faster).
-2. Train and detect locally by cloning the repository and running this **Jupyter Notebook** file [BrainTumorDetector.ipynb](https://colab.research.google.com/drive/1t8JFIeIObGaqmGUMW0NZuOnxQfPNYGFk?usp=sharing) (training time will be determined by your hardware capacity).
+1. Train and detect on this **Google Colaboratory** environment [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P5enxsjb1ZBbzV488tUYriINwGDSZL99?usp=sharing) (TIP: if you select the runtime with GPU, training process will be faster).
+2. Train and detect locally by cloning the repository and running this **Jupyter Notebook** file [BrainTumorDetector.ipynb](https://colab.research.google.com/drive/1P5enxsjb1ZBbzV488tUYriINwGDSZL99?usp=sharing) (training time will be determined by your hardware capacity).
 3. **Download** and use the fine-tuned models in the [release](https://github.com/giuseppebrb/BrainTumorDetection/releases) page (see below for further details).
 
 ## How to use the models
