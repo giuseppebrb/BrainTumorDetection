@@ -18,7 +18,7 @@ The dataset used in this project has been edited and enlarged starting from this
 
 ## Tech overview
 
-We won't building the entire Deep Neural Network from scratch, instead we'll perform fine-tuning of the [**YOLOv5**](https://github.com/ultralytics/yolov5) architecture which has been already trained on the **COCO** dataset. This allows us to specialize the model to our specific task of tumor detection. In particular, will be starting from the **YOLOv5s** checkpoint.
+We won't building the entire Deep Neural Network from scratch, instead we'll perform fine-tuning of the [**YOLOv5**](https://github.com/ultralytics/yolov5) architecture which has been already trained on the **COCO** dataset. This allows us to specialize the model to our specific task of tumor detection. In particular, will be starting from the **YOLOv5m** checkpoint.
 
 A Python environment with [**PyTorch**](https://pytorch.org/get-started/locally/) installed is required to perform both training end/or detection.
 
