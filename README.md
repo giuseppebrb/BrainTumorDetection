@@ -1,6 +1,6 @@
 # 🧠 Brain Tumor Detection
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://badgen.net/badge/release/1.0.0/green?icon=github)](https://github.com/giuseppebrb/BrainTumorDetection/releases) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P5enxsjb1ZBbzV488tUYriINwGDSZL99?usp=sharing)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![](https://badgen.net/badge/release/1.2.0/green?icon=github)](https://github.com/giuseppebrb/BrainTumorDetection/releases) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1P5enxsjb1ZBbzV488tUYriINwGDSZL99?usp=sharing)
 
 Co-author: [@TomMenga](https://github.com/TomMenga)
 
